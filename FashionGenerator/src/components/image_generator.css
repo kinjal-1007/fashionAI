@@ -1,0 +1,112 @@
+.image-generator{
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   margin-top: 1rem;
+   margin-bottom: 4rem;
+   gap: 3rem;
+}
+.header {
+   font-size: 3rem;
+   font-weight: bold;
+   color: white;
+}
+span {
+   color: rgb(192, 20, 106);
+}
+.img-loading{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 20px;
+   max-width: 100%;
+}
+.image img {
+  max-width: 100%; 
+  height: auto; 
+  max-height: 500px; 
+  border-radius: 8px;
+
+}
+.prompt {
+   display: flex;
+   margin-left: 100px;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   width: 580px;
+   height: 4rem;
+   border-radius: 50px;
+   background-color: rgb(73, 72, 73)
+}
+.search{
+    width: 375px;
+    height: 3rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 50px;
+    margin-right: 35px;
+    font-size: 18px;
+}
+.search::placeholder{
+   color: white;
+}
+.generate-btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 150px;
+   height: 3.8rem;
+   border-radius: 50px;
+   cursor: pointer;
+   background-color: rgb(192, 20, 106);;
+   font-size: 18px;
+   margin-right: 2px;
+   color: white;
+   font-weight: bold;
+}
+.download {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 480px;
+   height: 4rem;
+   border-radius: 50px;
+   background-color: rgb(73, 72, 73);
+   margin-left: 150px;
+}
+.download-box{
+   width: 375px;
+   height: 3rem;
+   background: transparent;
+   border: none;
+   outline: none;
+   color: white;
+   padding-left: 50px;
+   margin-right: 35px;
+   font-size: 18px;
+}
+.download-box::placeholder{
+  color: white;
+}
+.download-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 3.8rem;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #0056b3;
+  color: white;
+  font-size: 18px;
+  margin-right: 2px;
+  font-weight: bold;
+}
+.generate-btn:hover, .download-btn:hover {
+   background-color: white;
+   color: black;
+ }
